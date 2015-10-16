@@ -1,0 +1,158 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+
+<body class="impress-not-supported">
+
+<!--
+    For example this fallback message is only visible when there is `impress-not-supported` class on body.
+-->
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+
+<div id="impress">
+
+    
+    <div id="bored" class="step slide" data-x="-2000" data-y="-1500">
+        <q>感谢大家跟我一起来探索</br>  <strong>impress.js</strong></br>一个可以做网页PPT的神器！</q>
+    </div>
+    
+    <div class="step slide" data-x = "-1000" data-y = "-1500">
+		<q style="margin-left: 40px;">Where to use it? </br>——the place that you can</br> <strong> “ZhuangBi” </strong></br></br></br>Here is a example ——></q>
+    </div>
+
+    
+    <div class="step slide" data-x="0" data-y="-1500">
+        <iframe src="example.html" width="100%" frameborder="yes" scrolling="no" height="100%" leftmargin="0"  topmargin="0" ></iframe>
+    </div>
+
+    <div class="step slide" data-x="1000" data-y="-1500">
+        <q>看了上面的例子</br>你是否<strong> 心 动 </strong>了？</br>下面 我们一起 <strong> 边学边做 </strong> 吧</q>
+    </div>
+
+    
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+        <span class="try">首先我们看一下 </span>
+        <h1>impress.js<sup>*</sup></h1>
+        <span class="footnote"> 的 html 结构</span>
+    </div>
+
+    
+    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
+        <p>几个<strong> 重 点 </strong> <br/>
+        <ul>
+        	<li>1、类——class="step"</li>
+        	<li>2、定位——data-x、data-y、data-z</li>
+        	<li>3、旋转——data-rotate</li>
+        	<li>4、缩放——data-scale</li>
+        	<li>5、3D旋转——data-rotate-x、data-rotate-y</li>
+        </ul>
+        </p>
+    </div>
+
+    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+        <p>进阶——</br><span class="thoughts">应用css动画</span>
+        	<ul>
+        		<li>1、移动——translateX、translateY、translateZ</li>
+        		<li>2、旋转——rotateX、rotateY、rotateZ</li>
+        		<li>3、缩放——scale</li>
+        	</ul>
+        </p>
+    </div>
+
+    
+    <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+        <p>用它可以做一些</br><b class="wonderful"> 奇妙的</b> 事情</p>
+    </div>
+
+    
+    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
+        <p> <b class="positioning">大家好</b>,</br> <b class="rotating">我</b> 是 <b class="scaling">  张 睿 武 </b> </br><b class="footnote" style="font-size: 0.5em;">简单 的几行代码就有不错的 效果</b></p>
+    </div>
+
+    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
+        <p>the only <b>limit</b> is your <b class="imagination">imagination</b></p>
+    </div>
+
+    <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
+        <p>want to know more?</p>
+        <q><a href="http://github.com/bartaz/impress.js">use the source</a>, Luke!</q>
+    </div>
+
+    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
+        <p>one more thing...</p>
+    </div>
+
+    
+    <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+        <p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it's</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>
+        <span class="footnote">* So....</span>
+    </div>
+    
+    <div id="img1" class="step" data-x="9500" data-y="2500" data-z="400"  data-scale="4">
+    	<img src="css/1.jpg" width="600px" height="400px">
+    </div>
+    
+    <div id="img2" class="step" data-x="9500" data-y="3400" data-z="-400" data-rotate-x="-90"   data-scale="4">
+    	<img src="css/2.jpg" width="600px" height="400px">
+    </div>
+    
+    <div id="img3" class="step" data-x="9500" data-y="2500" data-z="-1200" data-rotate-x="-180" data-scale="4">
+    	<img src="css/3.jpg" width="600px" height="400px">
+    </div>
+    
+    <div id="img4" class="step" data-x="9500" data-y="1600" data-z="-400" data-rotate-x="-270" data-scale="4">
+    	<img src="css/4.jpg" width="600px" height="400px">
+    </div>
+
+    
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    </div>
+
+</div>
+
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+    <!--<p>Please use 空格 或 方向键 -_-!</p>-->
+</div>
+
+<div class="end">
+	<p>到这里，一个十分的逼就装完了！</br>等等，装完逼就跑吗？</p>
+</div>
+
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+
+
+</body>
+</html>
